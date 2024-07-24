@@ -1,10 +1,73 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section class="header">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div id="welcome-section">
+            <h1>Hello, I am Leonard</h1>
+            <p>A Fullstack Web Developer</p>
+        </div>
+    </section>
     
+    <section id="about" class="about--me">
+        <h2>About Me</h2>
+        <div class="para-blocks">
+            <p>
+                I am a passionate fullstack web developer and a computer
+                 science graduate with a strong foundation in software 
+                 development and a keen eye for detail. My expertise lies
+                in building robust, scalable web applications using modern technologies.
+            </p>
+            <p>
+                With experience in both frontend and backend development, 
+                I specialize in creating dynamic and responsive user interfaces 
+                as well as efficient server-side logic. I have a solid understanding 
+                of various programming languages and frameworks, including the MERN stack and Django.
+            </p>
+            <p>
+                My journey in web development has equipped me with the skills to tackle 
+                complex problems and deliver high-quality solutions. I am continuously learning 
+                and keeping up with industry trends to ensure that my work remains cutting-edge and effective.
+    
+            </p>
+            <a id="profile-link" target="_blank" href="https://github.com/LeonardOgendo">Github Profile</a>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="all-projects">
+            <div class="project-tile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPLfoJWYvfytIjpguCD-W66nggokOGhpbOA&s"/>
+                <a href="https://github.com/LeonardOgendo/Ecommerce-Django-Web-Application" target="_blank">Ecommerce System</a>
+            </div>
+            <div class="project-tile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwH4qMWmxML5fbHlNI6KuU1k6POi-N9kYiig&s"/>
+                <a href="https://github.com/LeonardOgendo/Fablab_Blog_Application" target="_blank">Blog Application</a>
+            </div>
+            <div class="project-tile">
+                <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png"/>
+                <a href="https://github.com/LeonardOgendo/My_React_Portfolio" target="_blank">React Portfolio App</a>
+            </div>
+        </div>
+        
+    </section>
+    <section id="contact" class="contact">
+        <h4>Contact</h4>
+        <p>Email: ogendoleonard5@gmail.com</p>
+        <p>Phone: + 254 71222 7184</p>
+    </section>
 </body>
 </html>
